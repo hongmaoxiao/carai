@@ -5,6 +5,7 @@ import {
   Button,
   Select,
   Input,
+  Card,
 } from 'element-ui';
 import App from './App';
 import router from './router';
@@ -14,6 +15,7 @@ Vue.config.productionTip = false;
 Vue.use(Button);
 Vue.use(Select);
 Vue.use(Input);
+Vue.use(Card);
 
 /* eslint-disable no-new */
 new Vue({
