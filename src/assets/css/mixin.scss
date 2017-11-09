@@ -1,0 +1,22 @@
+@mixin clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+@mixin width($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: #{$direction};
+  justify-content: #{$justify};
+  align-items: #{$align};
+}
