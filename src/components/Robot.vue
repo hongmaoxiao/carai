@@ -17,7 +17,7 @@ export default {
   name: 'Robot',
   data() {
     return {
-      msg: '我是机器人我是机器人',
+      msg: '我是机器人',
       robotIcon: {
         backgroundImage: `url(${icon})`,
       },

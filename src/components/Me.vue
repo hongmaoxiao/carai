@@ -17,7 +17,7 @@ export default {
   name: 'Me',
   data() {
     return {
-      msg: '我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人我是自己人',
+      msg: '我是自己人',
       meIcon: {
         backgroundImage: `url(${icon})`,
       },

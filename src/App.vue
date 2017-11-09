@@ -12,15 +12,6 @@ export default {
 };
 </script>
 <style rel="stylesheet/scss" lang="scss">
-  // #app {
-  //   position: absolute;
-  //   left: 0;
-  //   right: 0;
-  //   top: 0;
-  //   bottom: 0;
-  //   background: #f7f8fa;
-  // }
-
   @import "assets/css/mixin";
 
   .app-wrapper {
